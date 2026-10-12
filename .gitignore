@@ -1,0 +1,13 @@
+# Ignore Python virtual environment
+venv/
+__pycache__/
+
+# Ignore large model weight files
+models/*.h5
+models/*.keras
+*.h5
+*.keras
+
+# OS / system artifacts
+.DS_Store
+Thumbs.db
